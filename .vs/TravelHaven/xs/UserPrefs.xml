@@ -1,0 +1,7 @@
+﻿<Properties StartupConfiguration="{BDF18262-A615-4995-BF72-F49971E8F01C}|Default">
+  <MonoDevelop.Ide.ItemProperties.EntityLayer FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BusinessLayer FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.TravelHaven FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.DataAccessLayer FirstBuild="True" />
+</Properties>
