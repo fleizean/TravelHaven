@@ -33,8 +33,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Default\" />
+    <None Remove="Views\LayoutPartial\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="ViewComponents\Default\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\_SliderPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />
+    <Folder Include="Views\LayoutPartial\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="ViewComponents\Default\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\_SliderPartial\" />
   </ItemGroup>
 </Project>
