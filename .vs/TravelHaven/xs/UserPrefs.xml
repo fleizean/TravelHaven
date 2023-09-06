@@ -1,7 +1,40 @@
 ﻿<Properties StartupConfiguration="{BDF18262-A615-4995-BF72-F49971E8F01C}|Default">
-  <MonoDevelop.Ide.ItemProperties.EntityLayer FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TravelHaven/Views/Shared/Components/_Feature/Default.cshtml">
+    <Files>
+      <File FileName="TravelHaven/Views/Default/Index.cshtml" />
+      <File FileName="TravelHaven/Views/Shared/Components/_Feature/Default.cshtml" Line="67" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TravelHaven" expanded="True">
+            <Node name="TravelHaven" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="ViewComponents" expanded="True">
+                <Node name="Default" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Default" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="_Feature" expanded="True" />
+                    <Node name="_PopularDestinations" expanded="True" />
+                    <Node name="_SliderPartial" expanded="True" />
+                    <Node name="_Statistics" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.BusinessLayer FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.TravelHaven FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.DataAccessLayer FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TravelHaven PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

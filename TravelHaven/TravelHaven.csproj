@@ -38,6 +38,9 @@
     <None Remove="ViewComponents\Default\" />
     <None Remove="Views\Shared\Components\" />
     <None Remove="Views\Shared\Components\_SliderPartial\" />
+    <None Remove="Views\Shared\Components\_PopularDestinations\" />
+    <None Remove="Views\Shared\Components\_Statistics\" />
+    <None Remove="Views\Shared\Components\_Feature\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />
@@ -46,5 +49,8 @@
     <Folder Include="ViewComponents\Default\" />
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\_SliderPartial\" />
+    <Folder Include="Views\Shared\Components\_PopularDestinations\" />
+    <Folder Include="Views\Shared\Components\_Statistics\" />
+    <Folder Include="Views\Shared\Components\_Feature\" />
   </ItemGroup>
 </Project>

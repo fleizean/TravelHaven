@@ -165,3 +165,6 @@
 /Users/fleizean/Desktop/Self-Project/Asp.Net/TravelHaven/TravelHaven/obj/Debug/net5.0/TravelHaven.genruntimeconfig.cache
 /Users/fleizean/Desktop/Self-Project/Asp.Net/TravelHaven/TravelHaven/obj/Debug/net5.0/Razor/Views/LayoutPartial/_ScriptPartial.cshtml.g.cs
 /Users/fleizean/Desktop/Self-Project/Asp.Net/TravelHaven/TravelHaven/obj/Debug/net5.0/Razor/Views/Shared/Components/_SliderPartial/Default.cshtml.g.cs
+/Users/fleizean/Desktop/Self-Project/Asp.Net/TravelHaven/TravelHaven/obj/Debug/net5.0/Razor/Views/Shared/Components/_PopularDestinations/Default.cshtml.g.cs
+/Users/fleizean/Desktop/Self-Project/Asp.Net/TravelHaven/TravelHaven/obj/Debug/net5.0/Razor/Views/Shared/Components/_Statistics/Default.cshtml.g.cs
+/Users/fleizean/Desktop/Self-Project/Asp.Net/TravelHaven/TravelHaven/obj/Debug/net5.0/Razor/Views/Shared/Components/_Feature/Default.cshtml.g.cs
