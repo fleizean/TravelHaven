@@ -1,28 +1,28 @@
 ﻿<Properties StartupConfiguration="{BDF18262-A615-4995-BF72-F49971E8F01C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TravelHaven/Views/Shared/Components/_Feature/Default.cshtml">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TravelHaven PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EntityLayer/Concrete/Comment.cs">
     <Files>
-      <File FileName="TravelHaven/Views/Default/Index.cshtml" />
-      <File FileName="TravelHaven/Views/Shared/Components/_Feature/Default.cshtml" Line="67" Column="25" />
+      <File FileName="TravelHaven/Controllers/DestinationController.cs" />
+      <File FileName="TravelHaven/Views/Destination/DestinationDetails.cshtml" Line="39" Column="25" />
+      <File FileName="EntityLayer/Concrete/Destination.cs" Line="21" Column="34" />
+      <File FileName="TravelHaven/Views/Destination/Index.cshtml" />
+      <File FileName="EntityLayer/Concrete/Comment.cs" Line="15" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TravelHaven" expanded="True">
+            <Node name="EntityLayer" expanded="True">
+              <Node name="Concrete" expanded="True" />
+            </Node>
             <Node name="TravelHaven" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="ViewComponents" expanded="True">
-                <Node name="Default" expanded="True" />
-              </Node>
               <Node name="Views" expanded="True">
-                <Node name="Default" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="_Feature" expanded="True" />
-                    <Node name="_PopularDestinations" expanded="True" />
-                    <Node name="_SliderPartial" expanded="True" />
-                    <Node name="_Statistics" expanded="True" />
-                  </Node>
-                </Node>
+                <Node name="Destination" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -32,9 +32,4 @@
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.TravelHaven PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

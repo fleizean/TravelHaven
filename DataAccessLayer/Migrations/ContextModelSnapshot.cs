@@ -112,16 +112,31 @@ namespace DataAccessLayer.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("AuthorWord")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Capacity")
                         .HasColumnType("int");
 
                     b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("CoverImage")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("DetailsComment")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DetailsComment2")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image2")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("Price")
@@ -160,30 +175,6 @@ namespace DataAccessLayer.Migrations
                     b.HasKey("FeatureID");
 
                     b.ToTable("Features");
-                });
-
-            modelBuilder.Entity("EntityLayer.Concrete.Feature2", b =>
-                {
-                    b.Property<int>("Feature2ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Image")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("Status")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Feature2ID");
-
-                    b.ToTable("Feature2s");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Guide", b =>
@@ -229,6 +220,27 @@ namespace DataAccessLayer.Migrations
                     b.HasKey("NewsletterID");
 
                     b.ToTable("Newsletters");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.SocialMedia", b =>
+                {
+                    b.Property<int>("SocialMediaID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Url")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("SocialMediaID");
+
+                    b.ToTable("SocialMedias");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.SubAbout", b =>

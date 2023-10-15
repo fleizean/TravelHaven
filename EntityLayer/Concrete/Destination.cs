@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace EntityLayer.Concrete
@@ -14,6 +15,12 @@ namespace EntityLayer.Concrete
 		public string Description { get; set; }
 		public int Capacity { get; set; }
 		public bool Status { get; set; }
-    }
+        public string CoverImage { get; set; }
+		public string AuthorWord { get; set; }
+        public string DetailsComment { get; set; }
+		public string DetailsComment2 { get; set; }
+		public string Image2 { get; set; }
+		public List<Comment> Comments { get; set; }
+	}
 }
 
